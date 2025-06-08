@@ -15,14 +15,14 @@ def convert_to_fahrenheit(farenheit):
 
 
 try: 
-    current_temp = int(input("Enter your current temp: "))
-    unit = input("Is it (celsius/farenheit): ").strip().lower()
+    current_temp = int(input("Enter the temperature to convert: "))
+    unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().lower()
 
-    if unit == "celsius":
+    if unit == "c":
         result = convert_to_fahrenheit(current_temp)
         print(f"{current_temp} celsius is equal to {result:.2f} farenheit")
 
-    elif unit == "farenheit":
+    elif unit == "f":
         result = convert_to_celsius(current_temp)
         print(f"{current_temp} farenheit is equal to {result:.2f} celsius")
               
