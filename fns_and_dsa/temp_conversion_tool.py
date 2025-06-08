@@ -31,7 +31,7 @@ try:
         print("Enter a valid unit")
 
 except ValueError:
-    print("You entered invalid value!")
+    print("Invalid temperature. Please enter a numeric value.")
 
 
 
