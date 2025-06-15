@@ -5,7 +5,7 @@ def safe_divide(numerator, denominator):
         result = num / den
         return f"Result: {result}"
     except ZeroDivisionError:
-        print("Cannot divide by Zero!")
+        print("Error: Cannot divide by Zero!")
     
     except ValueError:
         print("Error: please enter numeric inputs")
