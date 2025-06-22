@@ -30,9 +30,12 @@ class Book:
         """
         return f"Book('{self.title}', '{self.author}', {self.year})"
 
+
+        
+        
     def __del__(self):
         """
         Called when the object is about to be destroyed.
         Typically used to free resources or confirm deletion.
         """
-        print(f"Deleting book: {self.title}")
+        print(f"Deleting {self.title}")
