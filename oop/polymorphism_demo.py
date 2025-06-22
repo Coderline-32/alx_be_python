@@ -1,7 +1,7 @@
 class Shape:
     def __init__(self):
         pass
-    def Area(self):
+    def area(self):
         raise NotImplementedError
 class Rectangle(Shape):
     def __init__(self, length, width):
