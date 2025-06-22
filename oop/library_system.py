@@ -34,9 +34,7 @@ class Library:
     def __str__(self):
         print(f"{self.books}")
     def list_books(self):
-     
-       for book in self.books:
-           print(f"- {book}")
-
+        for book in self.books:
+            print(book)
 
         
